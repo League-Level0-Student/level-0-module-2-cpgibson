@@ -7,7 +7,7 @@ import javax.swing.JOptionPane;
 public class LotteryTicket {
 
 	
-	public static void main (String[] args) {
+	public static void main(String[] args) {
 		
 		Random randomMaker = new Random();
 		int randomNumber0 = randomMaker.nextInt(100 + 1 -1);
